@@ -7,7 +7,17 @@
 ---
 ### Subject
 - HTML
+- CSS
+- JavaScript
 - MySQL
-- Java
 - Ubuntu
+- Spring
+- Android
+- Kotlin
+- Python
+- Java
 ---
+### TODO
+- Java nextInt + nextLine cursor issue
+- What is $ sign in java? - System.out.printf or String format
+- Create docs link in this file
