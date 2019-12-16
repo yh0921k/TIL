@@ -1,4 +1,5 @@
 # TIL(Today I Learned)
+
 ---
 ### Environment
 - Ubuntu 18.04.1 LTS, Windows 10 Pro
@@ -15,7 +16,7 @@
 - Android
 - Kotlin
 - Python
-- Java
+- [Java](https://github.com/yh0921k/TIL/blob/master/java/README.md)
 ---
 ### TODO
 - Java nextInt + nextLine cursor issue
