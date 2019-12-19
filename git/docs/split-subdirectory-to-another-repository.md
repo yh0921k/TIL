@@ -68,9 +68,9 @@ $ git push origin -u master
 ```bash
 # Original_Project/ 위치에서 아래의 명령을 수행한다.
 # Original_Project의 경로는 /home/user/git/Original_Project 로 가정한다.
-git rm -r SubDirectory02
-git commit -m "split SubDirectory02 and remove SubDirectory02 in Original_Directory"
-git branch -D copybranch
+$ git rm -r SubDirectory02
+$ git commit -m "split SubDirectory02 and remove SubDirectory02 in Original_Directory"
+$ git branch -D copybranch
 ```
 
 - SubDirectory01 또한 다른 프로젝트 디렉토리로 구성해야 하는 상황이라면 위의 작업 대신 SubDirectory02에 진행한 작업을 수행한 후 기존의 Original_Directory를 로컬과 원격 저장소에서 제거한다.
