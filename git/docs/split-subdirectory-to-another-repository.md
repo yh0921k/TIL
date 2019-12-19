@@ -8,15 +8,11 @@
 
 #### 예시) 아래의 경우는 필자가 실제로 직면한 상황이다.
 
-###### 		Original_Project/
-
-###### 						.git
-
-###### 						SubDirectory01/
-
-###### 						SubDirectory02/
-
-###### 						docs/
+> ​		Original_Project/
+> ​						.git
+> ​						SubDirectory01/
+> ​						SubDirectory02/
+> ​						docs/
 
 - 대략적으로 위와 같은 상황이 발생했으며, SubDirectory02가 너무 커져서 다른 프로젝트로 분리해야하는 상황이다. 
 - 명령을 이해하며 따라가면 손쉽게 아래와 같은 구조를 만들 수 있다.
@@ -25,21 +21,15 @@
 
 ### 결과
 
-###### 		new_project_name01/
-
-###### 						.git/
-
-###### 						docs/
-
-###### 						// 기존 폴더 내용 유지
-
-###### 		new_project_name02/
-
-###### 						.git
-
-###### 						docs/
-
-###### 						// 기존 폴더 내용 유지
+> ​		new_project_name01/
+> ​						.git/
+> ​						docs/
+> ​						// 기존 폴더 내용 유지
+>
+> ​		new_project_name02/
+> ​						.git
+> ​						docs/
+> ​						// 기존 폴더 내용 유지
 
 > 
 
@@ -78,8 +68,6 @@ git rm -r SubDirectory02
 git commit -m "split SubDirectory02 and remove SubDirectory02 in Original_Directory"
 git branch -D copybranch
 ```
-
-
 
 - SubDirectory01 또한 다른 프로젝트 디렉토리로 구성해야 하는 상황이라면 위의 작업 대신 SubDirectory02에 진행한 작업을 수행한 후 기존의 Original_Directory를 로컬과 원격 저장소에서 제거한다.
 
