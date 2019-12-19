@@ -6,13 +6,15 @@
 
 ---
 
-#### 예시) 아래의 경우는 필자가 실제로 직면한 상황이다.
+#### 예시) 아래의 경우는 필자가 실제로 직면한 상황이다.		
 
-> ​		Original_Project/
-> ​						.git
-> ​						SubDirectory01/
-> ​						SubDirectory02/
-> ​						docs/
+```bash
+Original_Project/
+		.git
+         SubDirectory01/
+         SubDirectory02/
+         docs/
+```
 
 - 대략적으로 위와 같은 상황이 발생했으며, SubDirectory02가 너무 커져서 다른 프로젝트로 분리해야하는 상황이다. 
 - 명령을 이해하며 따라가면 손쉽게 아래와 같은 구조를 만들 수 있다.
@@ -21,15 +23,17 @@
 
 ### 결과
 
-> ​		new_project_name01/
-> ​						.git/
-> ​						docs/
-> ​						// 기존 폴더 내용 유지
->
-> ​		new_project_name02/
-> ​						.git
-> ​						docs/
-> ​						// 기존 폴더 내용 유지
+```bash
+new_project_name01/
+		.git/
+         docs/
+         # 기존 폴더 내용 유지
+
+new_project_name02/
+		.git
+         docs/
+         # 기존 폴더 내용 유지
+```
 
 > 
 
