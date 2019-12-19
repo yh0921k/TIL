@@ -25,14 +25,14 @@ Original_Project/
 
 ```bash
 new_project_name01/
-		.git/
-         docs/
-         # 기존 폴더 내용 유지
+		# 기존 폴더 내용 유지
+         docs/         
+         .git/
 
 new_project_name02/
-		.git/
-         docs/
-         # 기존 폴더 내용 유지
+		# 기존 폴더 내용 유지
+         docs/         
+         .git/
 ```
 
 > 
@@ -61,9 +61,7 @@ $ git push origin -u master
 - 위의 작업 이후 commit 내역은 유지되면서 SubDirectory02가 다른 프로젝트 폴더로 분리됐음을 확인할 수 있다. 
 - **또한 가장 중요한 잔디가 살아있음을 확인할 수 있다.**
 
-
-
-
+---
 
 - ##### SubDirectory01을 Original_Directory에 유지하고 싶다면** 아래와 같은 작업을 수행한다. 
 
