@@ -9,11 +9,11 @@
 #### 예시) 아래의 경우는 필자가 실제로 직면한 상황이다.		
 
 ```bash
-Original_Project/
-		.git
+Original_Project/		
          SubDirectory01/
          SubDirectory02/
          docs/
+         .git/
 ```
 
 - 대략적으로 위와 같은 상황이 발생했으며, SubDirectory02가 너무 커져서 다른 프로젝트로 분리해야하는 상황이다. 
@@ -30,7 +30,7 @@ new_project_name01/
          # 기존 폴더 내용 유지
 
 new_project_name02/
-		.git
+		.git/
          docs/
          # 기존 폴더 내용 유지
 ```
@@ -60,6 +60,8 @@ $ git push origin -u master
 - user_id와 new_project_name은 본인에 맞게 입력한다. 
 - 위의 작업 이후 commit 내역은 유지되면서 SubDirectory02가 다른 프로젝트 폴더로 분리됐음을 확인할 수 있다. 
 - **또한 가장 중요한 잔디가 살아있음을 확인할 수 있다.**
+
+
 
 
 
