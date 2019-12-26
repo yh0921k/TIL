@@ -62,3 +62,6 @@ Git은 설정 값을 여러 파일에서 읽기 때문에 같은 설정이 존�
 
 ---
 
+[출처](https://git-scm.com/book/en/v2)
+[Creative Commons Attribution Non Commercial Share Alike 3.0 license](https://creativecommons.org/licenses/by-nc-sa/3.0/)
+

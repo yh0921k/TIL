@@ -42,3 +42,6 @@ $ git clone https://github.com/yh0921k/TIL.git myTIL # 다른 디렉토리 이�
 
 ---
 
+[출처](https://git-scm.com/book/en/v2)
+[Creative Commons Attribution Non Commercial Share Alike 3.0 license](https://creativecommons.org/licenses/by-nc-sa/3.0/)
+
