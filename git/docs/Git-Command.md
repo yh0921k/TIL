@@ -115,3 +115,30 @@
 
 ---
 
+### 기타 명령어
+
+- git tag [태그 내용] [commit checksum]
+  - 특정 커밋을 참조하는 태그를 붙인다.
+  - 간단하게 이름만 붙이는 light weight tag와 보다 많은 정보 전달을 위한 annotated tag가 있다.
+  - 보통 배포 버전을 명시하는데 활용된다.
+
+- git tag -l
+  - 현재 저장소에 존재하는 태그의 리스트를 출력한다.
+
+- git show-ref --tags
+  - 태그와 함께 태그가 붙은 commit의 체크섬 값을 같이 출력한다.
+
+- git tag -a [태그 내용] [commit checksum]
+  - annotated 태그를 붙인다.
+  - 해당 명령을 수행하면 에디터가 실행된다.
+    - 보통 언제, 누가, 왜 이 태그를 붙였는지 입력한다.
+
+- git show [tag]
+  - 태그를 확인한다.
+
+- git push [remote repository] [branch] --tags
+  - 로컬의 특정 branch의 모든 태그를 명시한 별칭의 원격 저장소에 push
+  - oriigin master가 기본값
+
+---
+
