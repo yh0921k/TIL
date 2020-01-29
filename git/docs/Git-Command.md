@@ -43,6 +43,12 @@
 
 
 
+- git commit --amend
+  - git status가 clean한 상태에서 최신 커밋(마지막 커밋) 내용을 수정한다.
+  - 이미 remote repository에 push한 경우 주의해서 사용한다.
+
+
+
 - git status
   - 현재 저장소의 상태 확인을 위한 명령
   - 추적되지 않은 파일이 있거나 변경되었는데 commit되지 않은 내역 등을 알려준다.
